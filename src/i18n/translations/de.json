@@ -1,0 +1,201 @@
+{
+  "lang": "de",
+  "dir": "ltr",
+  "nav": {
+    "tours": "Unsere Touren",
+    "included": "Inklusive",
+    "howItWorks": "So funktioniert's",
+    "reviews": "Bewertungen",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "bookTour": "Tour buchen",
+    "callUs": "Rufen Sie uns an"
+  },
+  "hero": {
+    "subtitle": "Private Touren in den Niederlanden",
+    "title1": "Entdecken Sie Hollands",
+    "title2": "verborgene Schönheit",
+    "description": "Erkunden Sie die berühmten Tulpengärten, historischen Windmühlen und malerischen Dörfer mit Ihrem eigenen privaten Fahrer. Ein unvergessliches niederländisches Erlebnis.",
+    "exploreTours": "Touren entdecken",
+    "requestQuote": "Angebot anfordern",
+    "rating": "4,9/5 Bewertung",
+    "guests": "2.500+ Zufriedene Gäste",
+    "licensed": "Lizenziert & Versichert"
+  },
+  "features": {
+    "subtitle": "Warum wir",
+    "title": "Der beste Weg, Holland zu erkunden",
+    "description": "Keine überfüllten Busse oder starre Zeitpläne. Mit TravelTulipTours erhalten Sie ein persönliches, komfortables und echtes niederländisches Erlebnis.",
+    "items": [
+      { "title": "Privat & Flexibel", "description": "Ihr eigenes Privatfahrzeug und Fahrer. Keine Gruppenpläne, kein Warten. Sie bestimmen das Tempo und die Route Ihres Tages." },
+      { "title": "Flexible Dauer", "description": "Buchen Sie stundenweise. Ob Halbtagesausflug oder Ganztagesabenteuer, wir passen die Tour an Ihre Wünsche an." },
+      { "title": "Professionelle Fahrer", "description": "Unsere erfahrenen, englischsprachigen Fahrer kennen jeden Winkel der Niederlande und teilen lokale Geschichten unterwegs." },
+      { "title": "Festpreise", "description": "Kennen Sie Ihren Preis im Voraus. Keine versteckten Kosten, keine Aufpreise, keine Überraschungen. Transparente Preise garantiert." },
+      { "title": "Hotel-Abholung", "description": "Wir holen Sie an Ihrem Hotel, Airbnb oder Amsterdam Flughafen Schiphol ab. Tür-zu-Tür-Komfort, keine Transfers nötig." },
+      { "title": "Kostenlose Stornierung", "description": "Pläne geändert? Kein Problem. Stornieren Sie bis 24 Stunden vor Ihrer Tour für eine vollständige Rückerstattung. Völlig risikofrei." }
+    ]
+  },
+  "tours": {
+    "subtitle": "Unsere Privaten Touren",
+    "title": "Entdecken Sie das Beste der Niederlande",
+    "description": "Jede Tour ist vollständig anpassbar. Wählen Sie Ihr Ziel, bestimmen Sie das Tempo und überlassen Sie uns den Rest. Alle Touren beinhalten private Abholung und Rückfahrt.",
+    "bookNow": "Jetzt buchen",
+    "customTourText": "Nicht gefunden, was Sie suchen? Wir erstellen auch maßgeschneiderte Touren!",
+    "customTourLink": "Individuelle Tour anfragen",
+    "items": [
+      {
+        "title": "Keukenhof Tulpengärten",
+        "tag": "Beliebteste",
+        "duration": "5-6 Stunden",
+        "description": "Besuchen Sie den weltberühmten Keukenhof mit über 7 Millionen blühenden Blumen. Spazieren Sie durch atemberaubende Tulpenfelder, erkunden Sie die Pavillons und machen Sie eine Flüsterboottour durch die umliegenden Blumenfelder.",
+        "highlights": ["Abholung an Ihrem Hotel oder Schiphol Flughafen", "Eintrittskarten für Sie organisiert", "Spaziergang durch die atemberaubenden Tulpenfelder", "Besuch der Blumenausstellungen in den Pavillons", "Optionale Bootstour durch Blumenfelder", "Fotostopps an ikonischen Tulpenlandschaften"],
+        "season": "März - Mai",
+        "price": "Ab €399"
+      },
+      {
+        "title": "Zaanse Schans Windmühlen",
+        "tag": "Kulturell",
+        "duration": "4-5 Stunden",
+        "description": "Reisen Sie in der Zeit zurück in diesem Freilichtmuseum, wo niederländische Dörfer im 18. Jahrhundert aussahen. Sehen Sie arbeitende Windmühlen, eine Käserei, Holzschuhwerkstatt und die berühmten grünen Holzhäuser.",
+        "highlights": ["Besuch authentischer arbeitender Windmühlen", "Traditionelle Käseherstellung beobachten", "Echte Holzschuhwerkstatt sehen", "Zaans Museum erkunden", "Durch historische grüne Häuser wandern", "Lokale niederländische Spezialitäten probieren"],
+        "season": "Ganzjährig",
+        "price": "Ab €399"
+      },
+      {
+        "title": "Giethoorn",
+        "tag": "Malerisch",
+        "duration": "7-8 Stunden",
+        "description": "Entdecken Sie das 'Venedig des Nordens' - ein Märchendorf ohne Straßen, nur Kanäle. Gleiten Sie mit dem Flüsterboot durch die Wasserwege vorbei an reetgedeckten Bauernhäusern und wunderschönen Gärten.",
+        "highlights": ["Private Flüsterboottour durch die Kanäle", "Die ikonischen reetgedeckten Häuser sehen", "Das charmante Dorfzentrum besuchen", "Mittagessen in einem traditionellen niederländischen Restaurant", "Fotostopps entlang der Kanäle", "Malerische Fahrt durch die niederländische Landschaft"],
+        "season": "April - Oktober",
+        "price": "Ab €399"
+      },
+      {
+        "title": "Amsterdam Stadttour",
+        "tag": "Stadt",
+        "duration": "3-4 Stunden",
+        "description": "Erkunden Sie die niederländische Hauptstadt mit einem privaten Fahrer. Sehen Sie den berühmten Grachtengürtel, das Anne-Frank-Haus-Gebiet, den Jordaan, Vondelpark und das Museumsviertel in Ihrem eigenen Tempo.",
+        "highlights": ["Fahrt entlang des UNESCO-Grachtengürtels", "Das Anne-Frank-Haus-Gebiet sehen", "Den charmanten Jordaan erkunden", "Das Museumsviertel besuchen", "Fotostopp am I Amsterdam Zeichen", "Optionale Grachtenfahrt-Ergänzung"],
+        "season": "Ganzjährig",
+        "price": "Ab €220"
+      },
+      {
+        "title": "Kinderdijk & Rotterdam",
+        "tag": "UNESCO-Welterbe",
+        "duration": "6-7 Stunden",
+        "description": "Besuchen Sie die UNESCO-Welterbe-Windmühlen in Kinderdijk - 19 ikonische Windmühlen in einer atemberaubenden Polderlandschaft. Kombinieren Sie mit modernen Architekturhighlights in Rotterdam.",
+        "highlights": ["19 historische Windmühlen in Kinderdijk sehen", "Entlang der Windmühlenpfade wandern oder radeln", "Die Kubushäuser in Rotterdam besuchen", "Die spektakuläre Markthal sehen", "Das moderne Erasmusbrücken-Gebiet erkunden", "Fotostopps an ikonischen Sehenswürdigkeiten"],
+        "season": "Ganzjährig",
+        "price": "Ab €399"
+      },
+      {
+        "title": "Volendam, Edam & Marken",
+        "tag": "Traditionell",
+        "duration": "5-6 Stunden",
+        "description": "Erleben Sie authentische niederländische Fischerdörfer. Besuchen Sie den malerischen Hafen von Volendam, die berühmte Käsestadt Edam und die ehemalige Insel Marken mit traditionellen Holzhäusern.",
+        "highlights": ["Durch den Hafen von Volendam bummeln", "Einen traditionellen Käsehof in Edam besuchen", "Fotos in traditioneller Tracht machen", "Die ehemalige Insel Marken erkunden", "Den ikonischen Leuchtturm von Marken sehen", "Frisch geräucherten Aal und Hering probieren"],
+        "season": "Ganzjährig",
+        "price": "Ab €399"
+      }
+    ]
+  },
+  "included": {
+    "subtitle": "Alles was Sie brauchen",
+    "title": "Was bei jeder Tour inklusive ist",
+    "items": [
+      { "title": "Privatfahrzeug", "description": "Komfortable Mercedes oder BMW Limousine (bis 4 Passagiere) oder geräumiger Van (bis 8 Passagiere)" },
+      { "title": "Professioneller Fahrer", "description": "Englischsprachiger, lizenzierter Fahrer, der gleichzeitig Ihr lokaler Reiseführer mit Insiderwissen ist" },
+      { "title": "Hotel-Abholung & Rückfahrt", "description": "Tür-zu-Tür-Service von Ihrem Hotel, Airbnb, Kreuzfahrtterminal oder Schiphol Flughafen" },
+      { "title": "Flexibler Reiseplan", "description": "Halten Sie, wo Sie möchten, ändern Sie Pläne unterwegs und verbringen Sie so viel Zeit wie Sie wollen an jedem Ort" },
+      { "title": "Wasser & WLAN", "description": "Kostenloses Wasser, Snacks und WLAN im Auto, damit Sie verbunden und komfortabel bleiben" },
+      { "title": "Kostenlose Stornierung", "description": "Stornieren oder verschieben Sie bis 24 Stunden vor Ihrer Tour ohne zusätzliche Kosten" }
+    ],
+    "notIncludedTitle": "Nicht inklusive",
+    "notIncluded": [
+      "Eintrittskarten für Sehenswürdigkeiten (wir können diese für Sie organisieren)",
+      "Mahlzeiten und Getränke in Restaurants",
+      "Persönliche Ausgaben und Souvenirs",
+      "Trinkgeld für den Fahrer (geschätzt aber nicht erforderlich)"
+    ]
+  },
+  "howItWorks": {
+    "subtitle": "Einfach & Unkompliziert",
+    "title": "So funktioniert's",
+    "description": "Die Buchung Ihrer privaten Tour ist einfach. In nur wenigen Schritten sind Sie auf dem Weg, das Beste von Holland zu entdecken.",
+    "steps": [
+      { "title": "Wählen Sie Ihre Tour", "description": "Stöbern Sie in unseren Touren oder erzählen Sie uns, was Sie sehen möchten. Wir erstellen einen maßgeschneiderten Reiseplan, abgestimmt auf Ihre Interessen, Gruppengröße und Zeitplan." },
+      { "title": "Erhalten Sie einen Festpreis", "description": "Erhalten Sie ein transparentes, all-inclusive Angebot innerhalb von Stunden. Keine versteckten Gebühren, keine Überraschungen. Zahlen Sie sicher online oder bei der Abholung." },
+      { "title": "Wir holen Sie ab", "description": "Ihr professioneller Fahrer kommt zur vereinbarten Zeit an Ihrem Hotel, Airbnb oder Schiphol Flughafen. Einsteigen und entspannen." },
+      { "title": "Genießen Sie das Erlebnis", "description": "Lehnen Sie sich zurück und genießen Sie die niederländische Landschaft, halten Sie, wo Sie möchten, machen Sie Fotos und schaffen Sie unvergessliche Erinnerungen." }
+    ]
+  },
+  "testimonials": {
+    "subtitle": "Gästebewertungen",
+    "title": "Was unsere Gäste sagen",
+    "basedOn": "basierend auf 500+ Bewertungen"
+  },
+  "faq": {
+    "subtitle": "Fragen?",
+    "title": "Häufig gestellte Fragen",
+    "stillQuestions": "Noch Fragen?",
+    "hereToHelp": "Wir helfen Ihnen gerne. Kontaktieren Sie uns jederzeit.",
+    "items": [
+      { "q": "Wie buche ich eine private Tour?", "a": "Buchen ist einfach! Füllen Sie das Buchungsformular auf unserer Website aus, senden Sie uns eine E-Mail an info@traveltuliptours.nl oder rufen Sie uns an unter +31 20 123 4567. Wir antworten innerhalb weniger Stunden mit einem persönlichen Angebot und Reiseplan." },
+      { "q": "Was kosten Ihre Touren?", "a": "Unsere Preise hängen von Ziel, Dauer, Gruppengröße und Abholort ab. Wir bieten transparente Festpreise ohne versteckte Kosten. Als Richtlinie: unsere Amsterdam Stadttour beginnt ab €220 und unsere Landschaftstouren ab €399. Kontaktieren Sie uns für ein genaues Angebot." },
+      { "q": "Wie viele Personen können teilnehmen?", "a": "Unsere komfortablen Limousinen (Mercedes E-Klasse / BMW 5er) bieten Platz für bis zu 4 Passagiere. Für größere Gruppen haben wir geräumige Vans für bis zu 8 Passagiere. Für Gruppen über 8 Personen können wir mehrere Fahrzeuge arrangieren." },
+      { "q": "Wo holen Sie uns ab?", "a": "Wir holen Sie überall in den Niederlanden ab! Die meisten Gäste werden an ihrem Hotel in Amsterdam abgeholt, aber wir bieten auch Abholung vom Schiphol Flughafen, Kreuzfahrtterminals in Rotterdam oder IJmuiden, Airbnb-Standorten oder jeder anderen Adresse." },
+      { "q": "Wann ist die beste Zeit für einen Keukenhof-Besuch?", "a": "Der Keukenhof ist jedes Jahr von Mitte März bis Mitte Mai geöffnet. Die Hauptsaison der Tulpen ist typischerweise Mitte April, wenn die meisten Sorten in voller Blüte stehen. Wir empfehlen frühzeitig zu buchen, da dies unsere beliebteste Tour ist." },
+      { "q": "Kann ich meine Tour-Route anpassen?", "a": "Absolut! Das ist das Schöne an einer privaten Tour. Sie können mehrere Ziele kombinieren, zusätzliche Stopps hinzufügen, mehr Zeit an Orten verbringen, die Ihnen gefallen, oder Orte überspringen, die Sie weniger interessieren." },
+      { "q": "Wie ist Ihre Stornierungsrichtlinie?", "a": "Wir bieten kostenlose Stornierung bis 24 Stunden vor Ihrer geplanten Tour. Bei Stornierung innerhalb von 24 Stunden fallen 50% Gebühren an. Nichterscheinen wird voll berechnet. Wir bieten auch kostenlose Umbuchung bis 24 Stunden vor der Tour." },
+      { "q": "Sprechen Ihre Fahrer Englisch?", "a": "Ja! Alle unsere Fahrer sprechen fließend Englisch und Niederländisch. Viele sprechen auch Deutsch, Französisch oder Spanisch. Unsere Fahrer sind nicht nur Chauffeure - sie sind sachkundige lokale Reiseführer." },
+      { "q": "Welche Fahrzeuge verwenden Sie?", "a": "Wir verwenden Premium-Fahrzeuge für maximalen Komfort. Unsere Flotte umfasst Mercedes E-Klasse Limousinen, BMW 5er und Mercedes V-Klasse Vans. Alle Fahrzeuge haben Klimaanlage, Ledersitze, WLAN und Lademöglichkeiten." },
+      { "q": "Organisieren Sie Eintrittskarten?", "a": "Ja, wir können Eintrittskarten für Keukenhof und andere Sehenswürdigkeiten zu regulären Preisen organisieren. Wir fügen sie Ihrem Angebot hinzu, damit alles vor Ihrem Tourtag erledigt ist." }
+    ]
+  },
+  "booking": {
+    "subtitle": "Tour buchen",
+    "title": "Bereit für einen unvergesslichen Tag?",
+    "description": "Füllen Sie das Formular aus und wir senden Ihnen innerhalb weniger Stunden ein persönliches Angebot. Keine Verpflichtung — erzählen Sie uns einfach, was Sie sehen möchten.",
+    "callUs": "Rufen Sie uns an",
+    "daily": "Täglich 8:00 - 22:00",
+    "emailUs": "E-Mail",
+    "replyTime": "Wir antworten innerhalb weniger Stunden",
+    "whatsapp": "WhatsApp",
+    "quickResponse": "Schnelle Antwort garantiert",
+    "form": {
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail",
+      "phone": "Telefonnummer",
+      "date": "Wunschdatum",
+      "guests": "Anzahl der Gäste",
+      "guest": "Gast",
+      "guestsPlural": "Gäste",
+      "tour": "Gewünschte Tour",
+      "selectTour": "Tour auswählen...",
+      "tourOptions": ["Keukenhof Tulpengärten", "Zaanse Schans Windmühlen", "Giethoorn", "Amsterdam Stadttour", "Kinderdijk & Rotterdam", "Volendam, Edam & Marken", "Individuelle Tour"],
+      "pickup": "Abholort",
+      "pickupPlaceholder": "Hotelname, Adresse oder Schiphol Flughafen",
+      "message": "Besondere Wünsche oder Fragen",
+      "messagePlaceholder": "Erzählen Sie uns von Ihren Wünschen, Interessen oder besonderen Anforderungen...",
+      "submit": "Kostenloses Angebot anfordern",
+      "noPayment": "Keine Zahlung erforderlich. Wir senden Ihnen innerhalb weniger Stunden ein persönliches Angebot."
+    },
+    "thankYou": {
+      "title": "Vielen Dank!",
+      "message": "Wir haben Ihre Buchungsanfrage erhalten. Unser Team meldet sich innerhalb weniger Stunden mit einem persönlichen Angebot und Reiseplan bei Ihnen.",
+      "callText": "In der Zwischenzeit können Sie uns gerne anrufen unter"
+    }
+  },
+  "footer": {
+    "description": "Entdecken Sie die Niederlande mit einem privaten Fahrer. Von Tulpenfeldern bis zu historischen Windmühlen, wir schaffen unvergessliche niederländische Erlebnisse.",
+    "ourTours": "Unsere Touren",
+    "quickLinks": "Schnelllinks",
+    "contactUs": "Kontakt",
+    "aboutUs": "Über uns",
+    "pricing": "Preise",
+    "privacyPolicy": "Datenschutz",
+    "terms": "AGB",
+    "customTours": "Individuelle Touren",
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

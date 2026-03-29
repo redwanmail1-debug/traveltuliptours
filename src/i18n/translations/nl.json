@@ -1,0 +1,201 @@
+{
+  "lang": "nl",
+  "dir": "ltr",
+  "nav": {
+    "tours": "Onze Tours",
+    "included": "Wat is inbegrepen",
+    "howItWorks": "Hoe het werkt",
+    "reviews": "Beoordelingen",
+    "faq": "Veelgestelde vragen",
+    "contact": "Contact",
+    "bookTour": "Boek je Tour",
+    "callUs": "Bel ons"
+  },
+  "hero": {
+    "subtitle": "Privé Tours door Nederland",
+    "title1": "Ontdek de verborgen",
+    "title2": "schoonheid van Holland",
+    "description": "Verken de beroemde tulpentuinen, historische molens en pittoreske dorpen met uw eigen privéchauffeur. Een onvergetelijke Nederlandse ervaring.",
+    "exploreTours": "Bekijk onze Tours",
+    "requestQuote": "Vraag een offerte aan",
+    "rating": "4.9/5 Beoordeling",
+    "guests": "2.500+ Tevreden gasten",
+    "licensed": "Gelicenseerd & Verzekerd"
+  },
+  "features": {
+    "subtitle": "Waarom wij",
+    "title": "De beste manier om Holland te ontdekken",
+    "description": "Geen volle bussen of strakke schema's. Met TravelTulipTours krijgt u een persoonlijke, comfortabele en echt Nederlandse ervaring.",
+    "items": [
+      { "title": "Privé & Flexibel", "description": "Uw eigen privévoertuig en chauffeur. Geen groepsschema's, geen wachten. U bepaalt het tempo en de route van uw dag." },
+      { "title": "Flexibele Duur", "description": "Boek per uur. Of u nu een halve dag of een hele dag wilt, wij passen de tour aan op uw wensen." },
+      { "title": "Professionele Chauffeurs", "description": "Onze ervaren, Engelssprekende chauffeurs kennen elke hoek van Nederland en delen lokale verhalen onderweg." },
+      { "title": "Vaste Prijzen", "description": "Weet uw prijs vooraf. Geen verborgen kosten, geen toeslagen, geen verrassingen. Transparante prijzen gegarandeerd." },
+      { "title": "Hotel Ophalen", "description": "Wij halen u op bij uw hotel, Airbnb of Amsterdam Airport Schiphol. Deur-tot-deur comfort, geen transfers nodig." },
+      { "title": "Gratis Annulering", "description": "Plannen gewijzigd? Geen probleem. Annuleer tot 24 uur voor uw tour voor volledige restitutie. Geheel risicovrij." }
+    ]
+  },
+  "tours": {
+    "subtitle": "Onze Privé Tours",
+    "title": "Ontdek het beste van Nederland",
+    "description": "Elke tour is volledig aanpasbaar. Kies uw bestemming, bepaal het tempo en laat de rest aan ons over. Alle tours inclusief privé ophalen en terugbrengen.",
+    "bookNow": "Boek nu",
+    "customTourText": "Niet gevonden wat u zoekt? Wij maken ook tours op maat!",
+    "customTourLink": "Vraag een Tour op maat aan",
+    "items": [
+      {
+        "title": "Keukenhof Tulpentuinen",
+        "tag": "Populairst",
+        "duration": "5-6 uur",
+        "description": "Bezoek de wereldberoemde Keukenhof met meer dan 7 miljoen bloeiende bloemen. Wandel door adembenemende tulpenvelden, verken de paviljoens en maak een fluisterboottocht door de omliggende bollenvelden.",
+        "highlights": ["Ophalen bij uw hotel of Schiphol Airport", "Entreekaarten voor u geregeld", "Wandel door de prachtige tulpenvelden", "Bezoek bloemententoonstellingen in de paviljoens", "Optionele boottocht door bollenvelden", "Fotostops bij iconische tulpenlandschappen"],
+        "season": "Maart - Mei",
+        "price": "Vanaf €399"
+      },
+      {
+        "title": "Zaanse Schans Molens",
+        "tag": "Cultureel",
+        "duration": "4-5 uur",
+        "description": "Stap terug in de tijd bij dit openluchtmuseum waar Nederlandse dorpen eruitzagen zoals in de 18e eeuw. Zie werkende molens, een kaasmakerij, klompenmakerij en de beroemde groene houten huizen.",
+        "highlights": ["Bezoek authentieke werkende molens", "Bekijk traditioneel kaas maken", "Zie een echte klompenmakerij", "Verken het Zaans Museum", "Wandel langs historische groene huizen", "Proef lokale Nederlandse specialiteiten"],
+        "season": "Het hele jaar",
+        "price": "Vanaf €399"
+      },
+      {
+        "title": "Giethoorn",
+        "tag": "Schilderachtig",
+        "duration": "7-8 uur",
+        "description": "Ontdek het 'Venetië van het Noorden' - een sprookjesdorp zonder wegen, alleen grachten. Glijd door de waterwegen per fluisterboot langs rietgedekte boerderijen en prachtige tuinen.",
+        "highlights": ["Privé fluisterboottocht door de grachten", "Zie de iconische rietgedekte huizen", "Bezoek het charmante dorpscentrum", "Lunch in een traditioneel Nederlands restaurant", "Fotostops langs de grachten", "Schilderachtige rit door het Nederlandse platteland"],
+        "season": "April - Oktober",
+        "price": "Vanaf €399"
+      },
+      {
+        "title": "Amsterdam Stadstour",
+        "tag": "Stad",
+        "duration": "3-4 uur",
+        "description": "Verken de Nederlandse hoofdstad met een privéchauffeur. Zie de beroemde grachtengordel, het Anne Frank Huis-gebied, de Jordaan, het Vondelpark en het Museumplein op uw eigen tempo.",
+        "highlights": ["Rijd langs de UNESCO grachtengordel", "Zie het Anne Frank Huis-gebied", "Verken de charmante Jordaan", "Bezoek het Museumkwartier", "Fotostop bij het I Amsterdam teken", "Optionele rondvaart toevoeging"],
+        "season": "Het hele jaar",
+        "price": "Vanaf €220"
+      },
+      {
+        "title": "Kinderdijk & Rotterdam",
+        "tag": "UNESCO Erfgoed",
+        "duration": "6-7 uur",
+        "description": "Bezoek de UNESCO Werelderfgoed molens van Kinderdijk - 19 iconische molens in een prachtig polderlandschap. Combineer met moderne architectuur hoogtepunten in Rotterdam.",
+        "highlights": ["Zie 19 historische molens bij Kinderdijk", "Wandel of fiets langs de molenroutes", "Bezoek de Kubuswoningen in Rotterdam", "Zie de spectaculaire Markthal", "Verken het moderne Erasmusbrug-gebied", "Fotostops bij iconische bezienswaardigheden"],
+        "season": "Het hele jaar",
+        "price": "Vanaf €399"
+      },
+      {
+        "title": "Volendam, Edam & Marken",
+        "tag": "Traditioneel",
+        "duration": "5-6 uur",
+        "description": "Ervaar authentieke Nederlandse vissersdorpen. Bezoek de pittoreske haven van Volendam, het beroemde kaasstadje Edam en het voormalige eiland Marken met traditionele houten huizen.",
+        "highlights": ["Wandel door de haven van Volendam", "Bezoek een traditionele kaasboerderij in Edam", "Maak foto's in traditionele klederdracht", "Verken het voormalige eiland Marken", "Zie de iconische vuurtoren van Marken", "Proef verse gerookte paling en haring"],
+        "season": "Het hele jaar",
+        "price": "Vanaf €399"
+      }
+    ]
+  },
+  "included": {
+    "subtitle": "Alles wat u nodig heeft",
+    "title": "Wat is inbegrepen bij elke tour",
+    "items": [
+      { "title": "Privé Voertuig", "description": "Comfortabele Mercedes of BMW sedan (tot 4 passagiers) of ruime bus (tot 8 passagiers)" },
+      { "title": "Professionele Chauffeur", "description": "Engelssprekende, gelicenseerde chauffeur die tevens uw lokale gids is met insiderkennis" },
+      { "title": "Hotel Ophalen & Terugbrengen", "description": "Deur-tot-deur service vanaf uw hotel, Airbnb, cruiseterminal of Schiphol Airport" },
+      { "title": "Flexibele Route", "description": "Stop waar u wilt, wijzig plannen onderweg en besteed zoveel tijd als u wilt op elke locatie" },
+      { "title": "Water & WiFi", "description": "Gratis water, snacks en WiFi in de auto zodat u verbonden en comfortabel blijft" },
+      { "title": "Gratis Annulering", "description": "Annuleer of verplaats tot 24 uur voor uw tour zonder extra kosten" }
+    ],
+    "notIncludedTitle": "Niet inbegrepen",
+    "notIncluded": [
+      "Entreekaarten voor attracties (wij kunnen deze voor u regelen)",
+      "Maaltijden en drankjes in restaurants",
+      "Persoonlijke uitgaven en souvenirs",
+      "Fooi voor de chauffeur (gewaardeerd maar niet verplicht)"
+    ]
+  },
+  "howItWorks": {
+    "subtitle": "Eenvoudig & Gemakkelijk",
+    "title": "Hoe het werkt",
+    "description": "Het boeken van uw privétour is eenvoudig. In slechts een paar stappen bent u op weg om het beste van Holland te ontdekken.",
+    "steps": [
+      { "title": "Kies uw Tour", "description": "Bekijk onze tours of vertel ons wat u wilt zien. Wij maken een route op maat, afgestemd op uw interesses, groepsgrootte en planning." },
+      { "title": "Ontvang een Vaste Prijs", "description": "Ontvang een transparante, all-inclusive offerte binnen enkele uren. Geen verborgen kosten, geen verrassingen. Betaal veilig online of bij ophalen." },
+      { "title": "Wij halen u op", "description": "Uw professionele chauffeur arriveert op de afgesproken tijd bij uw hotel, Airbnb of Schiphol Airport. Stap in en ontspan." },
+      { "title": "Geniet van de ervaring", "description": "Leun achterover en geniet van het Nederlandse platteland, stop waar u wilt, maak foto's en creëer onvergetelijke herinneringen." }
+    ]
+  },
+  "testimonials": {
+    "subtitle": "Gastenbeoordelingen",
+    "title": "Wat onze gasten zeggen",
+    "basedOn": "gebaseerd op 500+ beoordelingen"
+  },
+  "faq": {
+    "subtitle": "Vragen?",
+    "title": "Veelgestelde Vragen",
+    "stillQuestions": "Nog vragen?",
+    "hereToHelp": "Wij helpen u graag. Neem gerust contact met ons op.",
+    "items": [
+      { "q": "Hoe boek ik een privétour?", "a": "Boeken is eenvoudig! Vul het boekingsformulier in op onze website, stuur ons een e-mail naar info@traveltuliptours.nl, of bel ons op +31 20 123 4567. Wij reageren binnen enkele uren met een persoonlijke offerte en route." },
+      { "q": "Wat zijn jullie prijzen?", "a": "Onze prijzen zijn afhankelijk van de bestemming, duur, groepsgrootte en ophaallocatie. Wij bieden transparante, vaste prijzen zonder verborgen kosten. Als richtlijn: onze Amsterdam Stadstour begint vanaf €220 en onze plattelandstours vanaf €399. Neem contact op voor een exacte offerte op maat." },
+      { "q": "Hoeveel personen kunnen mee?", "a": "Onze comfortabele sedans (Mercedes E-Klasse / BMW 5 Serie) bieden plaats aan maximaal 4 passagiers. Voor grotere groepen hebben we ruime bussen voor maximaal 8 passagiers. Voor groepen groter dan 8 kunnen we meerdere voertuigen regelen." },
+      { "q": "Waar halen jullie ons op?", "a": "Wij halen u overal in Nederland op! De meeste gasten worden opgehaald bij hun hotel in Amsterdam, maar wij bieden ook ophaalservice vanaf Schiphol Airport, cruiseterminals in Rotterdam of IJmuiden, Airbnb-locaties of elk ander adres dat u verkiest." },
+      { "q": "Wanneer is de beste tijd om Keukenhof te bezoeken?", "a": "Keukenhof is open van half maart tot half mei elk jaar. Het hoogtepunt van het tulpenseizoen is doorgaans half april wanneer de meeste variëteiten in volle bloei staan. Wij raden aan vroeg te boeken, want dit is onze populairste tour en data zijn snel volgeboekt." },
+      { "q": "Kan ik mijn touroute aanpassen?", "a": "Absoluut! Dat is het mooie van een privétour. U kunt meerdere bestemmingen combineren, extra stops toevoegen, meer tijd doorbrengen op locaties die u leuk vindt, of locaties overslaan die u minder interesseren. Vertel ons wat u wilt zien en wij maken de perfecte route." },
+      { "q": "Wat is jullie annuleringsbeleid?", "a": "Wij bieden gratis annulering tot 24 uur voor uw geplande tour. Bij annulering binnen 24 uur geldt 50% kosten. No-shows worden volledig in rekening gebracht. Wij bieden ook gratis omboeken tot 24 uur voor de tour." },
+      { "q": "Spreken jullie chauffeurs Engels?", "a": "Ja! Al onze chauffeurs spreken vloeiend Engels en Nederlands. Velen spreken ook Duits, Frans of Spaans. Onze chauffeurs zijn niet alleen chauffeurs - het zijn deskundige lokale gidsen die verhalen, geschiedenis en insidertips delen tijdens de tour." },
+      { "q": "Welk type voertuigen gebruiken jullie?", "a": "Wij gebruiken premium, goed onderhouden voertuigen voor maximaal comfort. Onze vloot omvat Mercedes E-Klasse sedans, BMW 5 Serie en Mercedes V-Klasse bussen. Alle voertuigen hebben airconditioning, leren stoelen, WiFi en telefoonoplaadfaciliteiten." },
+      { "q": "Regelen jullie entreekaarten?", "a": "Ja, wij kunnen entreekaarten regelen voor Keukenhof en andere attracties tegen reguliere prijzen. Wij voegen ze toe aan uw offerte zodat alles geregeld is voor uw tourdag. Eén zorg minder!" }
+    ]
+  },
+  "booking": {
+    "subtitle": "Boek uw Tour",
+    "title": "Klaar voor een onvergetelijke dag?",
+    "description": "Vul het formulier in en wij sturen u binnen enkele uren een persoonlijke offerte. Geen verplichting — vertel ons gewoon wat u wilt zien en wij maken de perfecte tour.",
+    "callUs": "Bel ons",
+    "daily": "Dagelijks 8:00 - 22:00",
+    "emailUs": "E-mail ons",
+    "replyTime": "Wij reageren binnen enkele uren",
+    "whatsapp": "WhatsApp",
+    "quickResponse": "Snelle reactie gegarandeerd",
+    "form": {
+      "fullName": "Volledige naam",
+      "email": "E-mail",
+      "phone": "Telefoonnummer",
+      "date": "Gewenste datum",
+      "guests": "Aantal gasten",
+      "guest": "Gast",
+      "guestsPlural": "Gasten",
+      "tour": "Gewenste tour",
+      "selectTour": "Selecteer een tour...",
+      "tourOptions": ["Keukenhof Tulpentuinen", "Zaanse Schans Molens", "Giethoorn", "Amsterdam Stadstour", "Kinderdijk & Rotterdam", "Volendam, Edam & Marken", "Tour op maat"],
+      "pickup": "Ophaallocatie",
+      "pickupPlaceholder": "Hotelnaam, adres of Schiphol Airport",
+      "message": "Speciale verzoeken of vragen",
+      "messagePlaceholder": "Vertel ons over uw wensen, interesses of speciale vereisten...",
+      "submit": "Vraag uw gratis offerte aan",
+      "noPayment": "Geen betaling vereist. Wij sturen u binnen enkele uren een persoonlijke offerte."
+    },
+    "thankYou": {
+      "title": "Dank u wel!",
+      "message": "Wij hebben uw boekingsaanvraag ontvangen. Ons team neemt binnen enkele uren contact met u op met een persoonlijke offerte en route.",
+      "callText": "In de tussentijd kunt u ons gerust bellen op"
+    }
+  },
+  "footer": {
+    "description": "Ontdek Nederland met een privéchauffeur. Van tulpenvelden tot historische molens, wij creëren onvergetelijke Nederlandse ervaringen.",
+    "ourTours": "Onze Tours",
+    "quickLinks": "Snelle links",
+    "contactUs": "Contact",
+    "aboutUs": "Over ons",
+    "pricing": "Prijzen",
+    "privacyPolicy": "Privacybeleid",
+    "terms": "Algemene voorwaarden",
+    "customTours": "Tours op maat",
+    "rights": "Alle rechten voorbehouden."
+  }
+}

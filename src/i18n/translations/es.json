@@ -1,0 +1,201 @@
+{
+  "lang": "es",
+  "dir": "ltr",
+  "nav": {
+    "tours": "Nuestros Tours",
+    "included": "Qué incluye",
+    "howItWorks": "Cómo funciona",
+    "reviews": "Opiniones",
+    "faq": "Preguntas frecuentes",
+    "contact": "Contacto",
+    "bookTour": "Reservar Tour",
+    "callUs": "Llámenos"
+  },
+  "hero": {
+    "subtitle": "Tours Privados en los Países Bajos",
+    "title1": "Descubra la belleza",
+    "title2": "oculta de Holanda",
+    "description": "Explore los famosos jardines de tulipanes, molinos históricos y pueblos encantadores con su propio conductor privado. Una experiencia holandesa verdaderamente inolvidable.",
+    "exploreTours": "Explorar Tours",
+    "requestQuote": "Solicitar presupuesto",
+    "rating": "4,9/5 Valoración",
+    "guests": "2.500+ Huéspedes felices",
+    "licensed": "Con licencia y asegurado"
+  },
+  "features": {
+    "subtitle": "Por qué elegirnos",
+    "title": "La mejor manera de explorar Holanda",
+    "description": "Sin autobuses llenos ni horarios rígidos. Con TravelTulipTours, obtiene una experiencia personal, cómoda y auténticamente holandesa.",
+    "items": [
+      { "title": "Privado y flexible", "description": "Su propio vehículo privado y conductor. Sin horarios de grupo, sin esperas. Usted decide el ritmo y el itinerario de su día." },
+      { "title": "Duración flexible", "description": "Reserve por horas. Ya sea un viaje de medio día o una aventura de día completo, adaptamos el tour a sus deseos." },
+      { "title": "Conductores profesionales", "description": "Nuestros experimentados conductores de habla inglesa conocen cada rincón de los Países Bajos y comparten historias locales en el camino." },
+      { "title": "Precios fijos", "description": "Conozca su precio antes de ir. Sin costos ocultos, sin recargos, sin sorpresas. Precios transparentes garantizados." },
+      { "title": "Recogida en hotel", "description": "Le recogemos en su hotel, Airbnb o Aeropuerto de Ámsterdam Schiphol. Comodidad puerta a puerta, sin traslados." },
+      { "title": "Cancelación gratuita", "description": "¿Planes cambiados? No hay problema. Cancele hasta 24 horas antes de su tour para un reembolso completo. Sin riesgo." }
+    ]
+  },
+  "tours": {
+    "subtitle": "Nuestros Tours Privados",
+    "title": "Explore lo mejor de los Países Bajos",
+    "description": "Cada tour es totalmente personalizable. Elija su destino, establezca el ritmo y déjenos el resto. Todos los tours incluyen recogida y regreso privado.",
+    "bookNow": "Reservar",
+    "customTourText": "¿No encuentra lo que busca? ¡También creamos tours personalizados!",
+    "customTourLink": "Solicitar un tour personalizado",
+    "items": [
+      {
+        "title": "Jardines de Tulipanes Keukenhof",
+        "tag": "Más popular",
+        "duration": "5-6 horas",
+        "description": "Visite los mundialmente famosos jardines Keukenhof con más de 7 millones de flores en flor. Pasee por impresionantes campos de tulipanes, explore los pabellones y haga un paseo en bote por los campos de bulbos.",
+        "highlights": ["Recogida en su hotel o aeropuerto Schiphol", "Entradas organizadas para usted", "Paseo por los impresionantes campos de tulipanes", "Visita a exposiciones de flores en los pabellones", "Paseo en bote opcional por campos de bulbos", "Paradas fotográficas en paisajes icónicos de tulipanes"],
+        "season": "Marzo - Mayo",
+        "price": "Desde €399"
+      },
+      {
+        "title": "Molinos de Zaanse Schans",
+        "tag": "Cultural",
+        "duration": "4-5 horas",
+        "description": "Retroceda en el tiempo en este museo al aire libre donde los pueblos holandeses lucían como en el siglo XVIII. Vea molinos en funcionamiento, una quesería, taller de zuecos y las famosas casas de madera verde.",
+        "highlights": ["Visita a auténticos molinos en funcionamiento", "Ver la fabricación tradicional de queso", "Ver un verdadero taller de zuecos", "Explorar el Museo Zaans", "Pasear por las históricas casas verdes", "Probar especialidades holandesas locales"],
+        "season": "Todo el año",
+        "price": "Desde €399"
+      },
+      {
+        "title": "Pueblo de Giethoorn",
+        "tag": "Pintoresco",
+        "duration": "7-8 horas",
+        "description": "Descubra la 'Venecia del Norte' - un pueblo de cuento de hadas sin carreteras, solo canales. Deslícese por las vías fluviales en bote susurrante pasando granjas con techo de paja y hermosos jardines.",
+        "highlights": ["Tour privado en bote susurrante por los canales", "Ver las icónicas casas con techo de paja", "Visitar el encantador centro del pueblo", "Almuerzo en un restaurante holandés tradicional", "Paradas fotográficas a lo largo de los canales", "Viaje panorámico por el campo holandés"],
+        "season": "Abril - Octubre",
+        "price": "Desde €399"
+      },
+      {
+        "title": "Tour por Ámsterdam",
+        "tag": "Ciudad",
+        "duration": "3-4 horas",
+        "description": "Explore la capital holandesa con un conductor privado. Vea el famoso anillo de canales, el área de la Casa de Ana Frank, el Jordaan, Vondelpark y el Barrio de los Museos a su propio ritmo.",
+        "highlights": ["Recorrido por el anillo de canales UNESCO", "Ver el área de la Casa de Ana Frank", "Explorar el encantador barrio Jordaan", "Visitar el Barrio de los Museos", "Parada fotográfica en el letrero I Amsterdam", "Crucero opcional por los canales"],
+        "season": "Todo el año",
+        "price": "Desde €220"
+      },
+      {
+        "title": "Kinderdijk y Rotterdam",
+        "tag": "Patrimonio UNESCO",
+        "duration": "6-7 horas",
+        "description": "Visite los molinos Patrimonio de la Humanidad en Kinderdijk - 19 molinos icónicos en un impresionante paisaje de pólder. Combine con los puntos destacados de la arquitectura moderna en Rotterdam.",
+        "highlights": ["Ver 19 molinos históricos en Kinderdijk", "Caminar o andar en bicicleta por los caminos de molinos", "Visitar las Casas Cubo en Rotterdam", "Ver el espectacular Markthal", "Explorar la zona del moderno Puente Erasmus", "Paradas fotográficas en monumentos icónicos"],
+        "season": "Todo el año",
+        "price": "Desde €399"
+      },
+      {
+        "title": "Volendam, Edam y Marken",
+        "tag": "Tradicional",
+        "duration": "5-6 horas",
+        "description": "Experimente auténticos pueblos pesqueros holandeses. Visite el pintoresco puerto de Volendam, la famosa ciudad del queso Edam y la antigua isla de Marken con casas de madera tradicionales.",
+        "highlights": ["Paseo por el puerto de Volendam", "Visita a una granja de queso tradicional en Edam", "Fotos con trajes tradicionales holandeses", "Explorar la antigua isla de Marken", "Ver el icónico faro de Marken", "Probar anguila ahumada fresca y arenque"],
+        "season": "Todo el año",
+        "price": "Desde €399"
+      }
+    ]
+  },
+  "included": {
+    "subtitle": "Todo lo que necesita",
+    "title": "Qué incluye cada tour",
+    "items": [
+      { "title": "Vehículo privado", "description": "Cómodo sedán Mercedes o BMW (hasta 4 pasajeros) o furgoneta espaciosa (hasta 8 pasajeros)" },
+      { "title": "Conductor profesional", "description": "Conductor con licencia, de habla inglesa, que también es su guía local con conocimiento privilegiado" },
+      { "title": "Recogida y regreso al hotel", "description": "Servicio puerta a puerta desde su hotel, Airbnb, terminal de cruceros o aeropuerto Schiphol" },
+      { "title": "Itinerario flexible", "description": "Pare donde quiera, cambie planes sobre la marcha y pase el tiempo que desee en cada lugar" },
+      { "title": "Agua y WiFi", "description": "Agua, snacks y WiFi en el vehículo de cortesía para que se mantenga conectado y cómodo" },
+      { "title": "Cancelación gratuita", "description": "Cancele o reprograme hasta 24 horas antes de su tour sin costo adicional" }
+    ],
+    "notIncludedTitle": "No incluido",
+    "notIncluded": [
+      "Entradas a atracciones (podemos organizarlas para usted)",
+      "Comidas y bebidas en restaurantes",
+      "Gastos personales y recuerdos",
+      "Propinas para el conductor (apreciadas pero no obligatorias)"
+    ]
+  },
+  "howItWorks": {
+    "subtitle": "Simple y fácil",
+    "title": "Cómo funciona",
+    "description": "Reservar su tour privado es simple. En solo unos pasos, estará en camino a descubrir lo mejor de Holanda.",
+    "steps": [
+      { "title": "Elija su tour", "description": "Explore nuestros tours o díganos qué le gustaría ver. Crearemos un itinerario personalizado adaptado a sus intereses, tamaño de grupo y horario." },
+      { "title": "Reciba un precio fijo", "description": "Reciba un presupuesto transparente y todo incluido en pocas horas. Sin tarifas ocultas, sin sorpresas. Pague de forma segura en línea o al ser recogido." },
+      { "title": "Le recogemos", "description": "Su conductor profesional llega a la hora acordada a su hotel, Airbnb o aeropuerto Schiphol. Suba y relájese." },
+      { "title": "Disfrute la experiencia", "description": "Siéntese y disfrute del campo holandés, pare donde quiera, tome fotos y cree recuerdos inolvidables." }
+    ]
+  },
+  "testimonials": {
+    "subtitle": "Opiniones de huéspedes",
+    "title": "Lo que dicen nuestros huéspedes",
+    "basedOn": "basado en más de 500 opiniones"
+  },
+  "faq": {
+    "subtitle": "¿Tiene preguntas?",
+    "title": "Preguntas frecuentes",
+    "stillQuestions": "¿Aún tiene preguntas?",
+    "hereToHelp": "Estamos aquí para ayudar. Contáctenos en cualquier momento.",
+    "items": [
+      { "q": "¿Cómo reservo un tour privado?", "a": "¡Reservar es fácil! Complete el formulario de reserva en nuestro sitio web, envíenos un correo a info@traveltuliptours.nl, o llámenos al +31 20 123 4567. Respondemos en pocas horas con un presupuesto y itinerario personalizados." },
+      { "q": "¿Cuáles son sus precios?", "a": "Nuestros precios dependen del destino, duración, tamaño del grupo y lugar de recogida. Ofrecemos precios fijos transparentes sin costos ocultos. Como referencia: nuestro Tour por Ámsterdam desde €220 y los tours por el campo desde €399." },
+      { "q": "¿Cuántas personas pueden unirse?", "a": "Nuestros sedanes (Mercedes Clase E / BMW Serie 5) acomodan hasta 4 pasajeros. Para grupos más grandes, tenemos furgonetas para hasta 8 pasajeros. Para grupos mayores de 8, podemos organizar múltiples vehículos." },
+      { "q": "¿Dónde nos recogen?", "a": "¡Le recogemos en cualquier lugar de los Países Bajos! La mayoría de los huéspedes son recogidos en su hotel en Ámsterdam, pero también ofrecemos recogida desde el aeropuerto Schiphol, terminales de cruceros, ubicaciones de Airbnb o cualquier dirección." },
+      { "q": "¿Cuál es la mejor época para visitar Keukenhof?", "a": "Keukenhof está abierto de mediados de marzo a mediados de mayo cada año. La temporada alta de tulipanes es típicamente a mediados de abril. Recomendamos reservar con anticipación ya que es nuestro tour más popular." },
+      { "q": "¿Puedo personalizar mi itinerario?", "a": "¡Absolutamente! Esa es la belleza de un tour privado. Puede combinar múltiples destinos, agregar paradas adicionales, pasar más tiempo en lugares que le gusten o saltarse los que no le interesen." },
+      { "q": "¿Cuál es su política de cancelación?", "a": "Ofrecemos cancelación gratuita hasta 24 horas antes de su tour. Si cancela dentro de las 24 horas, se aplica un cargo del 50%. No presentarse se cobra el monto total." },
+      { "q": "¿Sus conductores hablan inglés?", "a": "¡Sí! Todos nuestros conductores hablan inglés y holandés con fluidez. Muchos también hablan alemán, francés o español. Son guías locales expertos que comparten historias e información privilegiada." },
+      { "q": "¿Qué tipo de vehículos usan?", "a": "Usamos vehículos premium para máximo confort. Nuestra flota incluye sedanes Mercedes Clase E, BMW Serie 5 y furgonetas Mercedes Clase V. Todos con aire acondicionado, asientos de cuero, WiFi y carga de teléfono." },
+      { "q": "¿Organizan entradas?", "a": "Sí, podemos organizar entradas para Keukenhof y otras atracciones a precios regulares. Las añadimos a su presupuesto para que todo esté resuelto antes del día de su tour." }
+    ]
+  },
+  "booking": {
+    "subtitle": "Reserve su tour",
+    "title": "¿Listo para un día inolvidable?",
+    "description": "Complete el formulario y le enviaremos un presupuesto personalizado en pocas horas. Sin compromiso — solo díganos qué le gustaría ver.",
+    "callUs": "Llámenos",
+    "daily": "Diario 8:00 - 22:00",
+    "emailUs": "Correo electrónico",
+    "replyTime": "Respondemos en pocas horas",
+    "whatsapp": "WhatsApp",
+    "quickResponse": "Respuesta rápida garantizada",
+    "form": {
+      "fullName": "Nombre completo",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "date": "Fecha preferida",
+      "guests": "Número de huéspedes",
+      "guest": "Huésped",
+      "guestsPlural": "Huéspedes",
+      "tour": "Tour preferido",
+      "selectTour": "Seleccione un tour...",
+      "tourOptions": ["Jardines Keukenhof", "Molinos Zaanse Schans", "Pueblo Giethoorn", "Tour Ámsterdam", "Kinderdijk y Rotterdam", "Volendam, Edam y Marken", "Tour personalizado"],
+      "pickup": "Lugar de recogida",
+      "pickupPlaceholder": "Nombre del hotel, dirección o aeropuerto Schiphol",
+      "message": "Solicitudes especiales o preguntas",
+      "messagePlaceholder": "Cuéntenos sobre sus deseos, intereses o requisitos especiales...",
+      "submit": "Solicitar presupuesto gratuito",
+      "noPayment": "No se requiere pago. Le enviaremos un presupuesto personalizado en pocas horas."
+    },
+    "thankYou": {
+      "title": "¡Gracias!",
+      "message": "Hemos recibido su solicitud. Nuestro equipo se pondrá en contacto con usted en pocas horas con un presupuesto e itinerario personalizados.",
+      "callText": "Mientras tanto, no dude en llamarnos al"
+    }
+  },
+  "footer": {
+    "description": "Descubra los Países Bajos con un conductor privado. Desde campos de tulipanes hasta molinos históricos, creamos experiencias holandesas inolvidables.",
+    "ourTours": "Nuestros Tours",
+    "quickLinks": "Enlaces rápidos",
+    "contactUs": "Contacto",
+    "aboutUs": "Sobre nosotros",
+    "pricing": "Precios",
+    "privacyPolicy": "Política de privacidad",
+    "terms": "Términos y condiciones",
+    "customTours": "Tours personalizados",
+    "rights": "Todos los derechos reservados."
+  }
+}

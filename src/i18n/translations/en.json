@@ -1,0 +1,261 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "nav": {
+    "tours": "Our Tours",
+    "included": "What's Included",
+    "howItWorks": "How It Works",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "bookTour": "Book Your Tour",
+    "callUs": "Call Us"
+  },
+  "hero": {
+    "subtitle": "Private Tours in the Netherlands",
+    "title1": "Discover Holland's",
+    "title2": "Hidden Beauty",
+    "description": "Explore the famous tulip gardens, historic windmills, and charming villages with your own private driver. A truly unforgettable Dutch experience.",
+    "exploreTours": "Explore Our Tours",
+    "requestQuote": "Request a Quote",
+    "rating": "4.9/5 Rating",
+    "guests": "2,500+ Happy Guests",
+    "licensed": "Licensed & Insured"
+  },
+  "features": {
+    "subtitle": "Why Choose Us",
+    "title": "The Best Way to Explore Holland",
+    "description": "Skip the crowded buses and rigid schedules. With TravelTulipTours, you get a personal, comfortable, and truly Dutch experience.",
+    "items": [
+      {
+        "title": "Private & Flexible",
+        "description": "Your own private vehicle and driver. No group schedules, no waiting. You decide the pace and itinerary of your day."
+      },
+      {
+        "title": "Flexible Duration",
+        "description": "Book by the hour. Whether you want a half-day trip or a full-day adventure, we tailor the tour to your wishes."
+      },
+      {
+        "title": "Professional Drivers",
+        "description": "Our experienced, English-speaking drivers know every corner of the Netherlands and share local stories along the way."
+      },
+      {
+        "title": "Fixed Prices",
+        "description": "Know your price before you go. No hidden costs, no surge pricing, no surprises. Transparent pricing guaranteed."
+      },
+      {
+        "title": "Hotel Pickup",
+        "description": "We pick you up at your hotel, Airbnb, or Amsterdam Airport Schiphol. Door-to-door comfort, no transfers needed."
+      },
+      {
+        "title": "Free Cancellation",
+        "description": "Plans changed? No problem. Cancel up to 24 hours before your tour for a full refund. Completely risk-free."
+      }
+    ]
+  },
+  "tours": {
+    "subtitle": "Our Private Tours",
+    "title": "Explore the Best of the Netherlands",
+    "description": "Each tour is fully customizable. Choose your destination, set the pace, and let us take care of the rest. All tours include private pickup and drop-off.",
+    "bookNow": "Book Now",
+    "customTourText": "Don't see what you're looking for? We create custom tours too!",
+    "customTourLink": "Request a Custom Tour",
+    "items": [
+      {
+        "title": "Keukenhof Tulip Gardens",
+        "tag": "Most Popular",
+        "duration": "5-6 hours",
+        "description": "Visit the world-famous Keukenhof gardens with over 7 million blooming flowers. Walk through breathtaking tulip fields, explore the pavilions, and take a whisper boat tour through the surrounding bulb fields.",
+        "highlights": [
+          "Pickup from your hotel or Schiphol Airport",
+          "Entry tickets arranged for you",
+          "Walk through the stunning tulip fields",
+          "Visit flower exhibitions in the pavilions",
+          "Optional boat tour through bulb fields",
+          "Photo stops at iconic tulip landscapes"
+        ],
+        "season": "March - May",
+        "price": "From €399"
+      },
+      {
+        "title": "Zaanse Schans Windmills",
+        "tag": "Cultural",
+        "duration": "4-5 hours",
+        "description": "Step back in time at this open-air museum where Dutch villages looked like in the 18th century. See working windmills, a cheese dairy, clog workshop, and the famous green wooden houses.",
+        "highlights": [
+          "Visit authentic working windmills",
+          "Watch traditional cheese making",
+          "See a real Dutch clog workshop",
+          "Explore the Zaans Museum",
+          "Walk through historic green houses",
+          "Taste local Dutch specialties"
+        ],
+        "season": "Year-round",
+        "price": "From €399"
+      },
+      {
+        "title": "Giethoorn Village",
+        "tag": "Scenic",
+        "duration": "7-8 hours",
+        "description": "Discover the 'Venice of the North' - a fairy-tale village with no roads, only canals. Glide through the waterways by whisper boat past thatched-roof farmhouses and beautiful gardens.",
+        "highlights": [
+          "Private whisper boat tour through canals",
+          "See the iconic thatched-roof houses",
+          "Visit the charming village center",
+          "Lunch at a traditional Dutch restaurant",
+          "Photo stops along the canals",
+          "Scenic drive through the Dutch countryside"
+        ],
+        "season": "April - October",
+        "price": "From €399"
+      },
+      {
+        "title": "Amsterdam City Tour",
+        "tag": "City",
+        "duration": "3-4 hours",
+        "description": "Explore the Dutch capital with a private driver. See the famous canal ring, Anne Frank House area, the Jordaan, Vondelpark, and the Museum Quarter at your own pace.",
+        "highlights": [
+          "Drive along the UNESCO canal ring",
+          "See the Anne Frank House area",
+          "Explore the charming Jordaan district",
+          "Visit the Museum Quarter",
+          "Photo stop at the I Amsterdam sign",
+          "Optional canal cruise addition"
+        ],
+        "season": "Year-round",
+        "price": "From €220"
+      },
+      {
+        "title": "Kinderdijk & Rotterdam",
+        "tag": "UNESCO Heritage",
+        "duration": "6-7 hours",
+        "description": "Visit the UNESCO World Heritage windmills at Kinderdijk - 19 iconic windmills in a stunning polder landscape. Combine with modern architecture highlights in Rotterdam.",
+        "highlights": [
+          "See 19 historic windmills at Kinderdijk",
+          "Walk or cycle along the windmill paths",
+          "Visit the Cube Houses in Rotterdam",
+          "See the spectacular Markthal",
+          "Explore the modern Erasmus Bridge area",
+          "Photo stops at iconic landmarks"
+        ],
+        "season": "Year-round",
+        "price": "From €399"
+      },
+      {
+        "title": "Volendam, Edam & Marken",
+        "tag": "Traditional",
+        "duration": "5-6 hours",
+        "description": "Experience authentic Dutch fishing villages. Visit the picturesque harbor of Volendam, the famous cheese town of Edam, and the former island of Marken with traditional wooden houses.",
+        "highlights": [
+          "Stroll through Volendam's harbor",
+          "Visit a traditional cheese farm in Edam",
+          "Take traditional Dutch costume photos",
+          "Explore the former island of Marken",
+          "See the iconic Marken lighthouse",
+          "Taste fresh smoked eel and herring"
+        ],
+        "season": "Year-round",
+        "price": "From €399"
+      }
+    ]
+  },
+  "included": {
+    "subtitle": "Everything You Need",
+    "title": "What's Included in Every Tour",
+    "items": [
+      { "title": "Private Vehicle", "description": "Comfortable Mercedes or BMW sedan (up to 4 passengers) or spacious van (up to 8 passengers)" },
+      { "title": "Professional Driver", "description": "English-speaking, licensed driver who doubles as your local guide with insider knowledge" },
+      { "title": "Hotel Pickup & Drop-off", "description": "Door-to-door service from your hotel, Airbnb, cruise terminal, or Schiphol Airport" },
+      { "title": "Flexible Itinerary", "description": "Stop wherever you like, change plans on the go, and spend as much time as you want at each location" },
+      { "title": "Bottled Water & WiFi", "description": "Complimentary water, snacks, and in-car WiFi so you stay connected and comfortable" },
+      { "title": "Free Cancellation", "description": "Cancel or reschedule up to 24 hours before your tour at no extra cost" }
+    ],
+    "notIncludedTitle": "Not Included",
+    "notIncluded": [
+      "Entrance tickets to attractions (we can arrange these for you)",
+      "Meals and drinks at restaurants",
+      "Personal expenses and souvenirs",
+      "Tips for the driver (appreciated but not required)"
+    ]
+  },
+  "howItWorks": {
+    "subtitle": "Simple & Easy",
+    "title": "How It Works",
+    "description": "Booking your private tour is simple. In just a few steps, you'll be on your way to discovering the best of Holland.",
+    "steps": [
+      { "title": "Choose Your Tour", "description": "Browse our tours or tell us what you'd like to see. We'll create a custom itinerary tailored to your interests, group size, and schedule." },
+      { "title": "Get a Fixed Price", "description": "Receive a transparent, all-inclusive quote within hours. No hidden fees, no surprises. Pay securely online or upon pickup." },
+      { "title": "We Pick You Up", "description": "Your professional driver arrives at your hotel, Airbnb, or Schiphol Airport at the agreed time. Step in and relax." },
+      { "title": "Enjoy the Experience", "description": "Sit back and enjoy the Dutch countryside, stop wherever you like, take photos, and create unforgettable memories." }
+    ]
+  },
+  "testimonials": {
+    "subtitle": "Guest Reviews",
+    "title": "What Our Guests Say",
+    "basedOn": "based on 500+ reviews"
+  },
+  "faq": {
+    "subtitle": "Got Questions?",
+    "title": "Frequently Asked Questions",
+    "stillQuestions": "Still have questions?",
+    "hereToHelp": "We're here to help. Reach out to us anytime.",
+    "items": [
+      { "q": "How do I book a private tour?", "a": "Booking is easy! Simply fill out the booking form on our website, send us an email at info@traveltuliptours.nl, or call us at +31 20 123 4567. We'll respond within a few hours with a personalized quote and itinerary." },
+      { "q": "What are your prices?", "a": "Our prices depend on the tour destination, duration, group size, and pickup location. We provide transparent, fixed prices with no hidden costs. As a guideline: our Amsterdam City Tour starts from €220 and our countryside tours from €399. Contact us for an exact quote tailored to your needs." },
+      { "q": "How many people can join a tour?", "a": "Our comfortable sedans (Mercedes E-Class / BMW 5 Series) accommodate up to 4 passengers. For larger groups, we have spacious vans for up to 8 passengers. For groups larger than 8, we can arrange multiple vehicles." },
+      { "q": "Where do you pick us up?", "a": "We pick you up anywhere in the Netherlands! Most guests are picked up at their hotel in Amsterdam, but we also offer pickup from Schiphol Airport, cruise terminals in Rotterdam or IJmuiden, Airbnb locations, or any other address you prefer." },
+      { "q": "When is the best time to visit Keukenhof?", "a": "Keukenhof is open from mid-March to mid-May each year. The peak tulip season is typically mid-April when most varieties are in full bloom. We recommend booking early as this is our most popular tour and dates fill up quickly." },
+      { "q": "Can I customize my tour itinerary?", "a": "Absolutely! That's the beauty of a private tour. You can combine multiple destinations, add extra stops, spend more time at locations you love, or skip ones that don't interest you. Just tell us what you'd like to see and we'll create a perfect itinerary." },
+      { "q": "What is your cancellation policy?", "a": "We offer free cancellation up to 24 hours before your scheduled tour. If you cancel within 24 hours, a 50% fee applies. No-shows are charged the full amount. We also offer free rescheduling up to 24 hours before the tour." },
+      { "q": "Do your drivers speak English?", "a": "Yes! All our drivers are fluent in English and Dutch. Many also speak German, French, or Spanish. Our drivers are not just chauffeurs - they are knowledgeable local guides who share stories, history, and insider tips throughout the tour." },
+      { "q": "What type of vehicles do you use?", "a": "We use premium, well-maintained vehicles for maximum comfort. Our fleet includes Mercedes E-Class sedans, BMW 5 Series, and Mercedes V-Class vans. All vehicles have air conditioning, leather seats, WiFi, and phone charging facilities." },
+      { "q": "Do you arrange entrance tickets?", "a": "Yes, we can arrange entrance tickets for Keukenhof and other attractions at regular prices. We'll add them to your quote so everything is taken care of before your tour day. One less thing to worry about!" }
+    ]
+  },
+  "booking": {
+    "subtitle": "Book Your Tour",
+    "title": "Ready for an Unforgettable Day?",
+    "description": "Fill out the form and we'll send you a personalized quote within a few hours. No commitment required — just tell us what you'd like to see and we'll create the perfect tour.",
+    "callUs": "Call Us",
+    "daily": "Daily 8:00 - 22:00",
+    "emailUs": "Email Us",
+    "replyTime": "We reply within a few hours",
+    "whatsapp": "WhatsApp",
+    "quickResponse": "Quick response guaranteed",
+    "form": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "date": "Preferred Date",
+      "guests": "Number of Guests",
+      "guest": "Guest",
+      "guestsPlural": "Guests",
+      "tour": "Preferred Tour",
+      "selectTour": "Select a tour...",
+      "tourOptions": ["Keukenhof Tulip Gardens", "Zaanse Schans Windmills", "Giethoorn Village", "Amsterdam City Tour", "Kinderdijk & Rotterdam", "Volendam, Edam & Marken", "Custom Tour"],
+      "pickup": "Pickup Location",
+      "pickupPlaceholder": "Hotel name, address, or Schiphol Airport",
+      "message": "Special Requests or Questions",
+      "messagePlaceholder": "Tell us about your wishes, interests, or any special requirements...",
+      "submit": "Request Your Free Quote",
+      "noPayment": "No payment required. We'll send you a personalized quote within a few hours."
+    },
+    "thankYou": {
+      "title": "Thank You!",
+      "message": "We've received your booking request. Our team will get back to you within a few hours with a personalized quote and itinerary.",
+      "callText": "In the meantime, feel free to call us at"
+    }
+  },
+  "footer": {
+    "description": "Discover the Netherlands with a private driver. From tulip fields to historic windmills, we create unforgettable Dutch experiences.",
+    "ourTours": "Our Tours",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "aboutUs": "About Us",
+    "pricing": "Pricing",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "customTours": "Custom Tours",
+    "rights": "All rights reserved."
+  }
+}
