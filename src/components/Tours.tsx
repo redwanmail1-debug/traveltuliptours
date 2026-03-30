@@ -8,7 +8,7 @@ const tourImages = [
   "/images/zaanse-schans.jpg",
   "/images/giethoornnew.jpg",
   "/images/amsterdam.jpg",
-  "/images/kinderdijk.jpg",
+  "/images/kinderdijknew.jpg",
   "/images/volendam.jpg",
 ];
 
