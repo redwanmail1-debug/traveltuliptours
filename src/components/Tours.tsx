@@ -6,7 +6,7 @@ import { useTranslation } from "@/i18n/LanguageContext";
 const tourImages = [
   "/images/keukenhof.jpg",
   "/images/zaanse-schans.jpg",
-  "/images/giethoorn.jpg",
+  "/images/giethoornnew.jpg",
   "/images/amsterdam.jpg",
   "/images/kinderdijk.jpg",
   "/images/volendam.jpg",
