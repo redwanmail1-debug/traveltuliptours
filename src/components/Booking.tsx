@@ -9,10 +9,30 @@ export default function Booking() {
   const { t } = useTranslation();
   const [formData, setFormData] = useState({ name: "", email: "", phone: "", date: "", guests: "2", tour: "", pickup: "", message: "" });
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    setSubmitted(true);
+    setLoading(true);
+    setError("");
+    try {
+      const res = await fetch("/api/booking", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setSubmitted(true);
+      } else {
+        setError("Something went wrong. Please call us or try again.");
+      }
+    } catch {
+      setError("Something went wrong. Please call us or try again.");
+    } finally {
+      setLoading(false);
+    }
   }
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) {
@@ -128,8 +148,9 @@ export default function Booking() {
                 <label htmlFor="message" className="block text-sm font-semibold text-dark mb-2">{t.booking.form.message}</label>
                 <textarea id="message" name="message" rows={4} value={formData.message} onChange={handleChange} placeholder={t.booking.form.messagePlaceholder} className="w-full px-4 py-3 rounded-lg border border-gray-light focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all text-dark placeholder:text-gray/50 resize-none" />
               </div>
-              <button type="submit" className="w-full bg-secondary text-white py-4 rounded-full text-lg font-semibold hover:bg-secondary/90 transition-all shadow-lg shadow-secondary/25 hover:shadow-xl hover:-translate-y-0.5">
-                {t.booking.form.submit}
+              {error && <p className="text-secondary text-sm text-center">{error}</p>}
+              <button type="submit" disabled={loading} className="w-full bg-secondary text-white py-4 rounded-full text-lg font-semibold hover:bg-secondary/90 transition-all shadow-lg shadow-secondary/25 hover:shadow-xl hover:-translate-y-0.5 disabled:opacity-60 disabled:cursor-not-allowed">
+                {loading ? "Sending..." : t.booking.form.submit}
               </button>
               <p className="text-center text-gray text-xs">{t.booking.form.noPayment}</p>
             </form>
