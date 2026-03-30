@@ -17,13 +17,12 @@ export default function Booking() {
     setLoading(true);
     setError("");
     try {
-      const res = await fetch("/api/booking", {
+      const res = await fetch("https://formspree.io/f/xkopjdrv", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
-      const data = await res.json();
-      if (data.success) {
+      if (res.ok) {
         setSubmitted(true);
       } else {
         setError("Something went wrong. Please call us or try again.");
