@@ -49,7 +49,7 @@ export default function RootLayout({
               description:
                 "Private tours and taxi service in the Netherlands. Visit Keukenhof, Zaanse Schans, Giethoorn and more.",
               url: "https://traveltuliptours.nl",
-              telephone: "+31 20 123 4567",
+              telephone: "+31 6 21 65 84 45",
               email: "info@traveltuliptours.nl",
               address: {
                 "@type": "PostalAddress",

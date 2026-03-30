@@ -48,7 +48,7 @@ export default function Booking() {
             </div>
             <h2 className="text-3xl font-bold text-dark mb-4" style={{ fontFamily: "var(--font-playfair)" }}>{t.booking.thankYou.title}</h2>
             <p className="text-gray text-lg leading-relaxed mb-6">{t.booking.thankYou.message}</p>
-            <p className="text-gray">{t.booking.thankYou.callText}{" "}<a href="tel:+31201234567" className="text-primary font-semibold">+31 20 123 4567</a></p>
+            <p className="text-gray">{t.booking.thankYou.callText}{" "}<a href="tel:+31621658445" className="text-primary font-semibold">+31 6 21 65 84 45</a></p>
           </div>
         </div>
       </section>
@@ -70,7 +70,7 @@ export default function Booking() {
                 </div>
                 <div>
                   <h3 className="font-bold text-dark">{t.booking.callUs}</h3>
-                  <a href="tel:+31201234567" className="text-primary hover:text-primary-light transition-colors">+31 20 123 4567</a>
+                  <a href="tel:+31621658445" className="text-primary hover:text-primary-light transition-colors">+31 6 21 65 84 45</a>
                   <p className="text-gray text-sm">{t.booking.daily}</p>
                 </div>
               </div>
@@ -90,7 +90,7 @@ export default function Booking() {
                 </div>
                 <div>
                   <h3 className="font-bold text-dark">{t.booking.whatsapp}</h3>
-                  <a href="https://wa.me/31201234567" className="text-primary hover:text-primary-light transition-colors" target="_blank" rel="noopener noreferrer">+31 20 123 4567</a>
+                  <a href="https://wa.me/31621658445" className="text-primary hover:text-primary-light transition-colors" target="_blank" rel="noopener noreferrer">+31 6 21 65 84 45</a>
                   <p className="text-gray text-sm">{t.booking.quickResponse}</p>
                 </div>
               </div>
