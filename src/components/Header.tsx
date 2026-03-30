@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useTranslation } from "@/i18n/LanguageContext";
 import LanguageSwitcher from "./LanguageSwitcher";
 
@@ -23,22 +24,8 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group" aria-label="TravelTulipTours home">
-            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true" className="shrink-0">
-              <circle cx="18" cy="18" r="18" fill="#1B4332" />
-              <path d="M18 8c-2 4-6 7-6 12a6 6 0 0 0 12 0c0-5-4-8-6-12z" fill="#C41E3A" />
-              <path d="M18 8c1.5 3 3 6 3 10a3 3 0 0 1-6 0c0-4 1.5-7 3-10z" fill="#FF6B35" />
-              <line x1="18" y1="20" x2="18" y2="28" stroke="#2D6A4F" strokeWidth="2" />
-              <path d="M15 26c1-2 3-3 3-3s2 1 3 3" stroke="#2D6A4F" strokeWidth="1.5" fill="none" />
-            </svg>
-            <div>
-              <span className="text-xl font-bold text-primary tracking-tight" style={{ fontFamily: "var(--font-playfair)" }}>
-                TravelTulip
-              </span>
-              <span className="text-xl font-bold text-secondary" style={{ fontFamily: "var(--font-playfair)" }}>
-                Tours
-              </span>
-            </div>
+          <Link href="/" className="flex items-center group" aria-label="TravelTulipTours home">
+            <Image src="/logo.svg" alt="TravelTulipTours" width={210} height={50} priority />
           </Link>
 
           {/* Desktop nav */}

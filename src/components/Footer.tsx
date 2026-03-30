@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useTranslation } from "@/i18n/LanguageContext";
 
 export default function Footer() {
@@ -13,14 +14,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center gap-2 mb-4" aria-label="TravelTulipTours home">
-              <svg width="32" height="32" viewBox="0 0 36 36" fill="none" aria-hidden="true">
-                <circle cx="18" cy="18" r="18" fill="#2D6A4F" />
-                <path d="M18 8c-2 4-6 7-6 12a6 6 0 0 0 12 0c0-5-4-8-6-12z" fill="#C41E3A" />
-                <path d="M18 8c1.5 3 3 6 3 10a3 3 0 0 1-6 0c0-4 1.5-7 3-10z" fill="#FF6B35" />
-                <line x1="18" y1="20" x2="18" y2="28" stroke="#2D6A4F" strokeWidth="2" />
-              </svg>
-              <span className="text-xl font-bold" style={{ fontFamily: "var(--font-playfair)" }}>TravelTulip<span className="text-secondary">Tours</span></span>
+            <Link href="/" className="flex items-center mb-4" aria-label="TravelTulipTours home">
+              <Image src="/logo.svg" alt="TravelTulipTours" width={210} height={50} className="brightness-0 invert" />
             </Link>
             <p className="text-white/60 text-sm leading-relaxed mb-6">{t.footer.description}</p>
             <div className="flex gap-3">
