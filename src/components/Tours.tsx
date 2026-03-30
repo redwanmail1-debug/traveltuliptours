@@ -9,7 +9,7 @@ const tourImages = [
   "/images/giethoornnew.jpg",
   "/images/amsterdam.jpg",
   "/images/kinderdijknew.jpg",
-  "/images/volendam.jpg",
+  "/images/volendamnew.jpg",
 ];
 
 export default function Tours() {
