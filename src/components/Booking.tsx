@@ -20,7 +20,7 @@ export default function Booking() {
       const res = await fetch("https://formspree.io/f/xkopjdrv", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, _subject: `Nieuwe boeking – ${formData.tour || "tour"} – ${formData.name}` }),
       });
       if (res.ok) {
         setSubmitted(true);
