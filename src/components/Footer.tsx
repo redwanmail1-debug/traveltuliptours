@@ -61,10 +61,6 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4" style={{ fontFamily: "var(--font-playfair)" }}>{t.footer.contactUs}</h3>
             <address className="not-italic space-y-4">
-              <div className="flex items-start gap-3">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="shrink-0 mt-0.5 text-white/40" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" /></svg>
-                <span className="text-white/60 text-sm">Keizersgracht 123<br />1015 CJ Amsterdam<br />The Netherlands</span>
-              </div>
               <div className="flex items-center gap-3">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="shrink-0 text-white/40" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
                 <a href="tel:+31621658445" className="text-white/60 hover:text-white text-sm transition-colors">+31 6 21 65 84 45</a>
@@ -82,10 +78,6 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-white/40 text-sm">&copy; {new Date().getFullYear()} TravelTulipTours. {t.footer.rights}</p>
-            <div className="flex items-center gap-4 text-white/40 text-sm">
-              <span>KVK: 12345678</span>
-              <span>BTW: NL123456789B01</span>
-            </div>
           </div>
         </div>
       </div>

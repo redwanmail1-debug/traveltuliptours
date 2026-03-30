@@ -8,7 +8,6 @@ import Tours from "@/components/Tours";
 import Included from "@/components/Included";
 import HowItWorks from "@/components/HowItWorks";
 import Booking from "@/components/Booking";
-import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 
@@ -23,7 +22,6 @@ export default function Home() {
         <Included />
         <HowItWorks />
         <Booking />
-        <Testimonials />
         <FAQ />
       </main>
       <Footer />
