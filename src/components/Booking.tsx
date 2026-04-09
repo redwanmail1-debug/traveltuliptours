@@ -24,6 +24,9 @@ export default function Booking() {
       });
       if (res.ok) {
         setSubmitted(true);
+        if (typeof window !== "undefined" && (window as any).fbq) {
+          (window as any).fbq("track", "Lead", { content_name: formData.tour || "tour" });
+        }
       } else {
         setError("Something went wrong. Please call us or try again.");
       }
@@ -90,7 +93,7 @@ export default function Booking() {
                 </div>
                 <div>
                   <h3 className="font-bold text-dark">{t.booking.whatsapp}</h3>
-                  <a href="https://wa.me/31621658445" className="text-primary hover:text-primary-light transition-colors" target="_blank" rel="noopener noreferrer">+31 6 21 65 84 45</a>
+                  <a href="https://wa.me/31621658445" className="text-primary hover:text-primary-light transition-colors" target="_blank" rel="noopener noreferrer" onClick={() => { if (typeof window !== "undefined" && (window as any).fbq) { (window as any).fbq("track", "Contact"); } }}>+31 6 21 65 84 45</a>
                   <p className="text-gray text-sm">{t.booking.quickResponse}</p>
                 </div>
               </div>
