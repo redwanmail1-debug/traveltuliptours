@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import MetaPixel from "@/components/MetaPixel";
+import Script from "next/script";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -207,6 +208,13 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen flex flex-col">
         <MetaPixel pixelId="1303080028356890" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-HTBXYH1FYY" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-HTBXYH1FYY');
+        ` }} />
         {children}
       </body>
     </html>
