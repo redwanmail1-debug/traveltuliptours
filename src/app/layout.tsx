@@ -99,7 +99,7 @@ export const metadata: Metadata = {
     other: [{ rel: "manifest", url: "/site.webmanifest" }],
   },
   verification: {
-    google: "VERVANG_MET_JOUW_GOOGLE_VERIFICATIECODE",
+    google: "rTnTKwafcSyCZ_vtHkC6DHDuKJiK4eUT0icLWZaAtWo",
   },
 };
 
