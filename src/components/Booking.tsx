@@ -27,6 +27,9 @@ export default function Booking() {
         if (typeof window !== "undefined" && (window as any).fbq) {
           (window as any).fbq("track", "Lead", { content_name: formData.tour || "tour" });
         }
+        if (typeof window !== "undefined" && (window as any).gtag) {
+          (window as any).gtag("event", "generate_lead", { tour: formData.tour || "tour", value: 399, currency: "EUR" });
+        }
       } else {
         setError("Something went wrong. Please call us or try again.");
       }
