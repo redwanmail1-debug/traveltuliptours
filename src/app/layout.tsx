@@ -205,16 +205,16 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-      </head>
-      <body className="min-h-screen flex flex-col">
-        <MetaPixel pixelId="1303080028356890" />
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-HTBXYH1FYY" strategy="afterInteractive" />
-        <Script id="google-analytics" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HTBXYH1FYY" />
+        <script dangerouslySetInnerHTML={{ __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'G-HTBXYH1FYY');
         ` }} />
+      </head>
+      <body className="min-h-screen flex flex-col">
+        <MetaPixel pixelId="1303080028356890" />
         {children}
       </body>
     </html>
