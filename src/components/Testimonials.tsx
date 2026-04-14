@@ -3,12 +3,12 @@
 import { useTranslation } from "@/i18n/LanguageContext";
 
 const reviews = [
-  { name: "Sarah Johnson", country: "United States", rating: 5, text: "Absolutely incredible experience! Our driver was so knowledgeable about the tulip history and took us to spots we never would have found on our own. The Keukenhof tour was the highlight of our entire Netherlands trip.", tour: "Keukenhof" },
-  { name: "Thomas Mueller", country: "Germany", rating: 5, text: "We booked the Giethoorn tour and it was magical. The whisper boat ride through the canals was so peaceful. Our driver even recommended a wonderful restaurant for lunch. Highly recommend!", tour: "Giethoorn" },
-  { name: "Yuki Tanaka", country: "Japan", rating: 5, text: "Perfect service from start to finish. The driver was waiting for us at Schiphol Airport and the whole day was perfectly organized. The windmills at Zaanse Schans were beautiful. Thank you TravelTulipTours!", tour: "Zaanse Schans" },
-  { name: "Emma & David Clarke", country: "United Kingdom", rating: 5, text: "We combined Keukenhof with a visit to a local flower farm - something you can't do with a group tour. The flexibility to stop and take photos whenever we wanted made all the difference.", tour: "Custom Tour" },
-  { name: "Marie Dubois", country: "France", rating: 5, text: "The Kinderdijk windmills were breathtaking and our driver shared fascinating stories about Dutch water management. Afterwards, we explored Rotterdam's modern architecture. A perfect day!", tour: "Kinderdijk" },
-  { name: "Alessandro Rossi", country: "Italy", rating: 5, text: "Our driver picked us up at our hotel in Amsterdam and we spent a wonderful day visiting Volendam, Edam, and Marken. The cheese tasting was delicious! Great value for the price.", tour: "Volendam" },
+  { name: "James R.", rating: 5, text: "Absolutely incredible experience! Our driver was so knowledgeable about the tulip history and took us to spots we never would have found on our own. The Keukenhof tour was the highlight of our entire Netherlands trip.", tour: "Keukenhof" },
+  { name: "Anoniem", rating: 5, text: "We booked the Giethoorn tour and it was magical. The whisper boat ride through the canals was so peaceful. Our driver even recommended a wonderful restaurant for lunch. Highly recommend!", tour: "Giethoorn" },
+  { name: "Nadia K.", rating: 5, text: "Perfect service from start to finish. The driver was waiting for us at Schiphol Airport and the whole day was perfectly organized. The windmills at Zaanse Schans were beautiful. Thank you TravelTulipTours!", tour: "Zaanse Schans" },
+  { name: "Anoniem", rating: 5, text: "We combined Keukenhof with a visit to a local flower farm — something you can't do with a group tour. The flexibility to stop and take photos whenever we wanted made all the difference.", tour: "Custom Tour" },
+  { name: "Lucas M.", rating: 5, text: "The Kinderdijk windmills were breathtaking and our driver shared fascinating stories about Dutch water management. Afterwards, we explored Rotterdam's modern architecture. A perfect day!", tour: "Kinderdijk" },
+  { name: "Sophie W.", rating: 5, text: "Our driver picked us up at our hotel in Amsterdam and we spent a wonderful day visiting Volendam, Edam, and Marken. The cheese tasting was delicious! Great value for the price.", tour: "Volendam" },
 ];
 
 function StarRating({ rating }: { rating: number }) {
@@ -44,10 +44,7 @@ export default function Testimonials() {
               <StarRating rating={review.rating} />
               <p className="text-dark leading-relaxed mt-4 mb-6 flex-1">&ldquo;{review.text}&rdquo;</p>
               <footer className="flex items-center justify-between pt-4 border-t border-gray-light">
-                <div>
-                  <cite className="not-italic font-bold text-dark text-sm">{review.name}</cite>
-                  <p className="text-gray text-xs">{review.country}</p>
-                </div>
+                <cite className="not-italic font-bold text-dark text-sm">{review.name}</cite>
                 <span className="text-xs text-secondary font-medium bg-secondary/10 px-3 py-1 rounded-full">{review.tour}</span>
               </footer>
             </blockquote>
