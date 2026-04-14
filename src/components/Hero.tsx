@@ -6,18 +6,18 @@ import { useTranslation } from "@/i18n/LanguageContext";
 
 const slides = [
   {
-    src: "/images/tulip-hero.jpg",
-    alt: "Vast colorful tulip fields in bloom across the Dutch countryside",
+    src: "/images/hero-windmills.png",
+    alt: "Dutch windmills at sunrise reflected in misty canal waters, Netherlands",
     kenBurns: "ken-burns-1",
   },
   {
-    src: "/images/giethoornnew.jpg",
-    alt: "Peaceful canals of Giethoorn village at golden hour",
+    src: "/images/hero-tulips.png",
+    alt: "Vast colorful tulip fields in full bloom — red, yellow, pink and purple rows",
     kenBurns: "ken-burns-2",
   },
   {
-    src: "/images/zaanse-schans.jpg",
-    alt: "Historic Dutch windmills at Zaanse Schans",
+    src: "/images/hero-giethoorn.png",
+    alt: "Boats gliding through the charming canals of Giethoorn village",
     kenBurns: "ken-burns-3",
   },
 ];
