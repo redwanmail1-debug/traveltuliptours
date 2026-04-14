@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useTranslation } from "@/i18n/LanguageContext";
 
 const tourImages = [
@@ -10,6 +11,15 @@ const tourImages = [
   "/images/amsterdam.jpg",
   "/images/kinderdijknew.jpg",
   "/images/volendamnew.jpg",
+];
+
+const tourSlugs = [
+  "keukenhof-tulip-gardens",
+  "zaanse-schans-windmills",
+  "giethoorn-village",
+  "amsterdam-city-tour",
+  "kinderdijk-rotterdam",
+  "volendam-edam-marken",
 ];
 
 export default function Tours() {
@@ -27,6 +37,7 @@ export default function Tours() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {t.tours.items.map((tour, i) => (
             <article key={i} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 group flex flex-col">
+
               <div className="relative h-56 overflow-hidden">
                 <Image
                   src={tourImages[i]}
@@ -59,7 +70,7 @@ export default function Tours() {
                     <p className="text-xs text-gray">{tour.season}</p>
                     <p className="text-xl font-bold text-primary">{tour.price}</p>
                   </div>
-                  <a href="#booking" className="bg-primary text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-primary-light transition-colors">{t.tours.bookNow}</a>
+                  <Link href={`/tours/${tourSlugs[i]}`} className="bg-primary text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-primary-light transition-colors">{t.tours.bookNow}</Link>
                 </div>
               </div>
             </article>

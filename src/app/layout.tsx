@@ -46,13 +46,6 @@ export const metadata: Metadata = {
   publisher: "TravelTulipTours",
   alternates: {
     canonical: siteUrl,
-    languages: {
-      "nl-NL": siteUrl,
-      "en-US": siteUrl,
-      "de-DE": siteUrl,
-      "es-ES": siteUrl,
-      "ar-SA": siteUrl,
-    },
   },
   openGraph: {
     title: "TravelTulipTours | Privé Tours door Nederland",
@@ -62,7 +55,6 @@ export const metadata: Metadata = {
     url: siteUrl,
     siteName: "TravelTulipTours",
     locale: "nl_NL",
-    alternateLocale: ["en_US", "de_DE", "es_ES", "ar_SA"],
     images: [
       {
         url: "/images/tulip-hero.jpg",
@@ -107,7 +99,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "TouristInformationCenter",
+      "@type": "TouristOperator",
       "@id": `${siteUrl}/#organization`,
       name: "TravelTulipTours",
       url: siteUrl,
@@ -117,7 +109,7 @@ const jsonLd = {
       },
       image: `${siteUrl}/images/tulip-hero.jpg`,
       description:
-        "Privé tours en taxiservice door Nederland. Bezoek Keukenhof, Zaanse Schans, Giethoorn en meer vanuit Amsterdam.",
+        "Private tours and taxi service through the Netherlands. Visit Keukenhof, Zaanse Schans, Giethoorn and more from Amsterdam.",
       telephone: "+31621658445",
       email: "info@traveltuliptours.nl",
       address: {
@@ -133,6 +125,13 @@ const jsonLd = {
       priceRange: "€€",
       currenciesAccepted: "EUR",
       paymentAccepted: ["Cash", "Credit Card", "iDEAL", "PayPal"],
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "500",
+        bestRating: "5",
+        worstRating: "1",
+      },
       sameAs: [
         "https://www.facebook.com/traveltuliptours",
         "https://www.instagram.com/traveltuliptours",
@@ -145,50 +144,93 @@ const jsonLd = {
       url: siteUrl,
       name: "TravelTulipTours",
       publisher: { "@id": `${siteUrl}/#organization` },
-      potentialAction: {
-        "@type": "SearchAction",
-        target: `${siteUrl}/?q={search_term_string}`,
-        "query-input": "required name=search_term_string",
-      },
     },
     {
       "@type": "TouristTrip",
       name: "Keukenhof Tulip Gardens Private Tour",
-      description: "Privé dagtour naar Keukenhof tulpentuinen vanuit Amsterdam. Inclusief entreetickets.",
+      description: "Private day tour to Keukenhof tulip gardens from Amsterdam. Entry tickets arranged.",
       touristType: "Cultural tourism",
+      url: `${siteUrl}/tours/keukenhof-tulip-gardens`,
       offers: {
         "@type": "Offer",
         price: "399",
         priceCurrency: "EUR",
         availability: "https://schema.org/InStock",
-        url: `${siteUrl}/#booking`,
+        url: `${siteUrl}/tours/keukenhof-tulip-gardens`,
       },
     },
     {
       "@type": "TouristTrip",
       name: "Zaanse Schans Windmills Private Tour",
-      description: "Privé tour naar de historische windmolens van Zaanse Schans vanuit Amsterdam.",
+      description: "Private tour to the historic windmills of Zaanse Schans from Amsterdam.",
       touristType: "Cultural tourism",
+      url: `${siteUrl}/tours/zaanse-schans-windmills`,
       offers: {
         "@type": "Offer",
         price: "399",
         priceCurrency: "EUR",
         availability: "https://schema.org/InStock",
-        url: `${siteUrl}/#booking`,
+        url: `${siteUrl}/tours/zaanse-schans-windmills`,
       },
     },
     {
       "@type": "TouristTrip",
       name: "Amsterdam City Private Tour",
-      description: "Privé stadstour door Amsterdam met eigen chauffeur.",
+      description: "Private city tour through Amsterdam with your own driver.",
       touristType: "Cultural tourism",
+      url: `${siteUrl}/tours/amsterdam-city-tour`,
       offers: {
         "@type": "Offer",
         price: "220",
         priceCurrency: "EUR",
         availability: "https://schema.org/InStock",
-        url: `${siteUrl}/#booking`,
+        url: `${siteUrl}/tours/amsterdam-city-tour`,
       },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "How do I book a private tour?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Booking is easy! Simply fill out the booking form on our website, send us an email at info@traveltuliptours.nl, or call us at +31 6 21 65 84 45. We'll respond within a few hours with a personalized quote and itinerary.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What are your prices?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Our Amsterdam City Tour starts from €220 and our countryside tours (Keukenhof, Zaanse Schans, Giethoorn, Kinderdijk, Volendam) start from €399. All prices are fixed with no hidden costs.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "When is the best time to visit Keukenhof?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Keukenhof is open from mid-March to mid-May each year. The peak tulip season is typically mid-April when most varieties are in full bloom. We recommend booking early as this is our most popular tour.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Where do you pick us up?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "We pick you up anywhere in the Netherlands! Most guests are picked up at their hotel in Amsterdam, but we also offer pickup from Schiphol Airport, cruise terminals, Airbnb locations, or any other address you prefer.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is your cancellation policy?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "We offer free cancellation up to 24 hours before your scheduled tour. If you cancel within 24 hours, a 50% fee applies. We also offer free rescheduling up to 24 hours before the tour.",
+          },
+        },
+      ],
     },
   ],
 };
