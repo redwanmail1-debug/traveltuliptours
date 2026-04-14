@@ -1,29 +1,93 @@
 "use client";
 
 import Image from "next/image";
+import { useState, useEffect } from "react";
 import { useTranslation } from "@/i18n/LanguageContext";
+
+const slides = [
+  {
+    src: "/images/tulip-hero.jpg",
+    alt: "Vast colorful tulip fields in bloom across the Dutch countryside",
+    kenBurns: "ken-burns-1",
+  },
+  {
+    src: "/images/giethoornnew.jpg",
+    alt: "Peaceful canals of Giethoorn village at golden hour",
+    kenBurns: "ken-burns-2",
+  },
+  {
+    src: "/images/zaanse-schans.jpg",
+    alt: "Historic Dutch windmills at Zaanse Schans",
+    kenBurns: "ken-burns-3",
+  },
+];
 
 export default function Hero() {
   const { t } = useTranslation();
+  const [current, setCurrent] = useState(0);
+  const [prev, setPrev] = useState<number | null>(null);
+  const [fading, setFading] = useState(false);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setPrev(current);
+      setFading(true);
+      setTimeout(() => {
+        setCurrent((c) => (c + 1) % slides.length);
+        setFading(false);
+        setPrev(null);
+      }, 1000);
+    }, 6000);
+    return () => clearInterval(timer);
+  }, [current]);
+
+  const goTo = (i: number) => {
+    if (i === current) return;
+    setPrev(current);
+    setFading(true);
+    setTimeout(() => {
+      setCurrent(i);
+      setFading(false);
+      setPrev(null);
+    }, 1000);
+  };
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden" aria-label="Hero">
-      <Image
-        src="/images/tulip-hero.jpg"
-        alt="Colorful tulip fields in Holland with rows of red, yellow and pink tulips stretching to the horizon"
-        fill
-        priority
-        fetchPriority="high"
-        className="object-cover"
-        sizes="100vw"
-      />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60" />
 
-      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center text-white pt-20">
+      {/* Slides */}
+      {slides.map((slide, i) => (
+        <div
+          key={slide.src}
+          className="absolute inset-0 transition-opacity duration-1000"
+          style={{ opacity: i === current ? 1 : i === prev && fading ? 0 : 0 }}
+          aria-hidden={i !== current}
+        >
+          <div key={`${slide.src}-${i === current}`} className={`absolute inset-0 ${i === current ? slide.kenBurns : ""}`}>
+            <Image
+              src={slide.src}
+              alt={slide.alt}
+              fill
+              priority={i === 0}
+              className="object-cover"
+              sizes="100vw"
+            />
+          </div>
+        </div>
+      ))}
+
+      {/* Gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/35 to-black/65 z-10" />
+
+      {/* Content */}
+      <div className="relative z-20 max-w-5xl mx-auto px-4 sm:px-6 text-center text-white pt-20">
         <p className="text-gold font-semibold text-sm sm:text-base tracking-[0.2em] uppercase mb-4 animate-fade-in">
           {t.hero.subtitle}
         </p>
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-in-up" style={{ fontFamily: "var(--font-playfair)" }}>
+        <h1
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-in-up"
+          style={{ fontFamily: "var(--font-playfair)" }}
+        >
           {t.hero.title1}<br />
           <span className="text-gold">{t.hero.title2}</span>
         </h1>
@@ -31,13 +95,21 @@ export default function Hero() {
           {t.hero.description}
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up animation-delay-400">
-          <a href="#tours" className="w-full sm:w-auto bg-secondary text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-secondary/90 transition-all shadow-2xl shadow-secondary/30 hover:-translate-y-1">
+          <a
+            href="#tours"
+            className="w-full sm:w-auto bg-secondary text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-secondary/90 transition-all shadow-2xl shadow-secondary/30 hover:-translate-y-1"
+          >
             {t.hero.exploreTours}
           </a>
-          <a href="#booking" className="w-full sm:w-auto bg-white/15 backdrop-blur-sm text-white px-8 py-4 rounded-full text-lg font-semibold border border-white/30 hover:bg-white/25 transition-all hover:-translate-y-1">
+          <a
+            href="#booking"
+            className="w-full sm:w-auto bg-white/15 backdrop-blur-sm text-white px-8 py-4 rounded-full text-lg font-semibold border border-white/30 hover:bg-white/25 transition-all hover:-translate-y-1"
+          >
             {t.hero.requestQuote}
           </a>
         </div>
+
+        {/* Trust badges */}
         <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10 mt-14 animate-fade-in-up animation-delay-600">
           <div className="flex items-center gap-2 text-white/80">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
@@ -53,7 +125,23 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce" aria-hidden="true">
+
+      {/* Slide indicators */}
+      <div className="absolute bottom-16 left-1/2 -translate-x-1/2 z-20 flex gap-2" role="tablist" aria-label="Slide indicators">
+        {slides.map((_, i) => (
+          <button
+            key={i}
+            role="tab"
+            aria-selected={i === current}
+            aria-label={`Slide ${i + 1}`}
+            onClick={() => goTo(i)}
+            className={`h-1.5 rounded-full transition-all duration-500 ${i === current ? "w-8 bg-white" : "w-2 bg-white/40 hover:bg-white/70"}`}
+          />
+        ))}
+      </div>
+
+      {/* Scroll indicator */}
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 animate-bounce" aria-hidden="true">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeOpacity="0.6"><path d="M7 13l5 5 5-5M7 6l5 5 5-5" /></svg>
       </div>
     </section>

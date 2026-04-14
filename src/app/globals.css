@@ -56,6 +56,25 @@ html {
 }
 
 /* Animations */
+@keyframes kenBurns {
+  from { transform: scale(1) translate(0, 0); }
+  to   { transform: scale(1.1) translate(-1%, -1%); }
+}
+
+@keyframes kenBurns2 {
+  from { transform: scale(1) translate(0, 0); }
+  to   { transform: scale(1.1) translate(1%, -1%); }
+}
+
+@keyframes kenBurns3 {
+  from { transform: scale(1.05) translate(1%, 0); }
+  to   { transform: scale(1.12) translate(-1%, -1%); }
+}
+
+.ken-burns-1 { animation: kenBurns  8s ease-out forwards; }
+.ken-burns-2 { animation: kenBurns2 8s ease-out forwards; }
+.ken-burns-3 { animation: kenBurns3 8s ease-out forwards; }
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
